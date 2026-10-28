@@ -1,0 +1,129 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "usingComponents": {
+          "force-swiper": "../../components/force-swiper",
+          "progress-bar": "../../components/progress-bar"
+        },
+        "backgroundColor": "#f6f6f6"
+      }
+    },
+    {
+      "path": "pages/list/mine/index",
+      "style": {
+        "usingComponents": {},
+        "navigationStyle": "custom",
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/list/order/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/list/order/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/list/store/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/list/login/index",
+      "style": {
+        "usingComponents": {},
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/list/register/index",
+      "style": {
+        "usingComponents": {},
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/list/menu/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/product/detail",
+      "style": {
+        "navigationBarTitleText": "商品详情",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/list/address/index",
+      "style": {
+        "navigationBarTitleText": "收货地址"
+      }
+    },
+    {
+      "path": "pages/list/address/add",
+      "style": {
+        "navigationBarTitleText": "添加地址"
+      }
+    },
+    {
+      "path": "pages/list/address/edit",
+      "style": {
+        "navigationBarTitleText": "编辑地址"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#797979",
+    "selectedColor": "#E60012",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/list/store/index",
+        "text": "点餐",
+        "iconPath": "static/images/menu.png",
+        "selectedIconPath": "static/images/menu-selected.png"
+      },
+      {
+        "pagePath": "pages/list/order/index",
+        "text": "订单",
+        "iconPath": "static/images/order.png",
+        "selectedIconPath": "static/images/order-selected.png"
+      },
+      {
+        "pagePath": "pages/list/mine/index",
+        "text": "我的",
+        "iconPath": "static/images/me.png",
+        "selectedIconPath": "static/images/me-selected.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  }
+}

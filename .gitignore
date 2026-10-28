@@ -1,0 +1,25 @@
+# Local dependencies and generated builds
+**/node_modules/
+**/dist/
+**/unpackage/
+**/.vite/
+*.log
+*.local
+.env
+.env.*
+!.env.example
+
+# Local original submission contains personal identifiers and duplicate files
+/*.zip
+/*.doc
+/*.docx
+~$*
+
+# Working files for screenshots and document verification
+output/
+tmp/
+.playwright-cli/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

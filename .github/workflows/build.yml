@@ -1,0 +1,27 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 蜜雪冰城小程序
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: 蜜雪冰城小程序/.nvmrc
+          cache: npm
+          cache-dependency-path: 蜜雪冰城小程序/package-lock.json
+      - run: npm ci
+      - run: npm run build:h5
+      - run: npm run build:mp-weixin
