@@ -17,6 +17,6 @@
 - [mxbc-mp 说明](https://github.com/cqljh/mxbc-mp/blob/master/readme.md)
 - [全栈项目说明](https://github.com/lfeternity/mxbc/blob/main/README.md)
 
-名称采用 **Mixue Campus 2025 / 蜜雪冰城校园点单**，仓库地址保留 `snowking-campus-2025`。`Mixue` 便于识别蜜雪冰城题材，`Campus` 说明课程实践背景，`2025` 给出时间范围，避免使用含混的“最新版”或把它误认为其他项目的官方升级版本。原仓库名创建前未检索到同名仓库；这一结果不构成全网名称独占声明。
+名称采用 **Mixue Campus / 蜜雪冰城校园点单**，仓库地址保留 `snowking-campus-2025`。`Mixue` 便于识别蜜雪冰城题材，`Campus` 说明课程实践背景；复刻时间在正文说明，标题不再包含年份。原仓库名创建前未检索到同名仓库；这一结果不构成全网名称独占声明。
 
 也检索了 GitLab 与 Gitee 的公开网页结果，但没有取得足以确认其就是作者当时下载项目的证据，因此不虚构原项目链接。作者已确认历史参考链接无法找回；如将来确认有复用代码，应补充实际来源及原许可，不能通过改名替代署名。

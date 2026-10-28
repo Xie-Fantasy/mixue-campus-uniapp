@@ -1,4 +1,4 @@
-# Mixue Campus 2025 源码
+# Mixue Campus 源码
 
 完整项目介绍、运行截图和功能边界请看[仓库根目录 README](../README.md)。
 
