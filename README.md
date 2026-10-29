@@ -1,6 +1,6 @@
 <div align="center">
 
-# Mixue Campus
+# Mixue Campus · uni-app
 
 **蜜雪冰城点单小程序 · Vue 3 + uni-app**
 
@@ -15,13 +15,15 @@ Vue 3 + uni-app 实现的移动端点单前端，记录一份完成于 2025 年�
 
 </div>
 
+**作者与维护：谢凡（昵称：XieFantasy）** ｜ [GitHub 主页](https://github.com/kkkioio) ｜ [项目源码](https://github.com/kkkioio/mixue-campus-uniapp)
+
 ## 项目简介
 
 这份项目来自《前端框架专用周》课程设计，原题目为“蜜雪冰城点单系统”，开发时间为 **2025 年 4 月 21 日至 4 月 30 日**。项目以当时使用的蜜雪冰城小程序界面为参照，练习移动端布局、组件封装、页面通信和本地数据持久化。
 
 从首页选择到店自取或雪王外送，进入门店、浏览分类、选择饮品规格，再生成并查看订单，是本项目的主要演示路径。源码与重新运行后的截图一并公开，方便学习和复现。
 
-名称中的 `Mixue` 对应蜜雪冰城，`Campus` 表示校园课设背景，便于与其他同题材项目区分。本项目保留的是 **2025 年春季的界面实践**，并不跟随官方小程序持续更新。仓库地址保留原来的 `snowking-campus-2025`，已有链接仍可使用。
+名称中的 `Mixue` 对应蜜雪冰城，`Campus` 表示校园课设背景，便于与其他同题材项目区分。本项目保留的是 **2025 年春季的界面实践**，并不跟随官方小程序持续更新。仓库名称为 `mixue-campus-uniapp`，对应项目名与 uni-app 技术栈。
 
 ### 与已有开源项目相比，优势在哪里
 
@@ -106,8 +108,8 @@ Vue 3 + uni-app 实现的移动端点单前端，记录一份完成于 2025 年�
 原项目记录的 Node.js 版本为 **22.11.0**，源码目录提供了 `.nvmrc`。建议使用该版本复现，并使用 `npm ci` 按锁文件安装依赖。
 
 ```bash
-git clone https://github.com/kkkioio/snowking-campus-2025.git
-cd snowking-campus-2025
+git clone https://github.com/kkkioio/mixue-campus-uniapp.git
+cd mixue-campus-uniapp
 cd "蜜雪冰城小程序"
 npm ci
 ```
@@ -156,7 +158,7 @@ npm run build:mp-weixin
 ## 目录结构
 
 ```text
-snowking-campus-2025/
+mixue-campus-uniapp/
 ├── README.md
 ├── LICENSE
 ├── THIRD_PARTY_NOTICES.md        # 素材来源和许可范围
@@ -198,4 +200,4 @@ snowking-campus-2025/
 
 感谢 [Vue](https://github.com/vuejs/core)、[uni-app](https://github.com/dcloudio/uni-app) 和 [uni-ui](https://github.com/dcloudio/uni-ui)。README 的信息组织参考了 [hello-uniapp](https://github.com/dcloudio/hello-uniapp) 与 [yudao-mall-uniapp](https://github.com/yudaocode/yudao-mall-uniapp) 等开源项目；上述链接用于说明参考对象，不表示存在官方合作关系。
 
-如发现问题，欢迎通过 [Issues](https://github.com/kkkioio/snowking-campus-2025/issues) 提供复现步骤、运行平台和截图。
+如发现问题，欢迎通过 [Issues](https://github.com/kkkioio/mixue-campus-uniapp/issues) 提供复现步骤、运行平台和截图。

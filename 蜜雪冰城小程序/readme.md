@@ -1,4 +1,4 @@
-# Mixue Campus 源码
+# Mixue Campus · uni-app 源码
 
 完整项目介绍、运行截图和功能边界请看[仓库根目录 README](../README.md)。
 
@@ -12,3 +12,5 @@ npm run dev:mp-weixin
 ```
 
 微信开发者工具导入 `dist/dev/mp-weixin`。
+
+作者与维护：谢凡 / XieFantasy · [GitHub](https://github.com/kkkioio)
