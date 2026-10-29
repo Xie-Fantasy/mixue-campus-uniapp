@@ -15,7 +15,7 @@ Vue 3 + uni-app 实现的移动端点单前端，记录一份完成于 2025 年�
 
 </div>
 
-**作者与维护：谢凡（昵称：XieFantasy）** ｜ [GitHub 主页](https://github.com/kkkioio) ｜ [项目源码](https://github.com/kkkioio/mixue-campus-uniapp)
+**作者与维护：谢凡（昵称：Xie-Fantasy）** ｜ [GitHub 主页](https://github.com/Xie-Fantasy) ｜ [项目源码](https://github.com/Xie-Fantasy/mixue-campus-uniapp)
 
 ## 项目简介
 
@@ -108,7 +108,7 @@ Vue 3 + uni-app 实现的移动端点单前端，记录一份完成于 2025 年�
 原项目记录的 Node.js 版本为 **22.11.0**，源码目录提供了 `.nvmrc`。建议使用该版本复现，并使用 `npm ci` 按锁文件安装依赖。
 
 ```bash
-git clone https://github.com/kkkioio/mixue-campus-uniapp.git
+git clone https://github.com/Xie-Fantasy/mixue-campus-uniapp.git
 cd mixue-campus-uniapp
 cd "蜜雪冰城小程序"
 npm ci
@@ -200,4 +200,4 @@ mixue-campus-uniapp/
 
 感谢 [Vue](https://github.com/vuejs/core)、[uni-app](https://github.com/dcloudio/uni-app) 和 [uni-ui](https://github.com/dcloudio/uni-ui)。README 的信息组织参考了 [hello-uniapp](https://github.com/dcloudio/hello-uniapp) 与 [yudao-mall-uniapp](https://github.com/yudaocode/yudao-mall-uniapp) 等开源项目；上述链接用于说明参考对象，不表示存在官方合作关系。
 
-如发现问题，欢迎通过 [Issues](https://github.com/kkkioio/mixue-campus-uniapp/issues) 提供复现步骤、运行平台和截图。
+如发现问题，欢迎通过 [Issues](https://github.com/Xie-Fantasy/mixue-campus-uniapp/issues) 提供复现步骤、运行平台和截图。

@@ -13,4 +13,4 @@ npm run dev:mp-weixin
 
 微信开发者工具导入 `dist/dev/mp-weixin`。
 
-作者与维护：谢凡 / XieFantasy · [GitHub](https://github.com/kkkioio)
+作者与维护：谢凡 / Xie-Fantasy · [GitHub](https://github.com/Xie-Fantasy)
